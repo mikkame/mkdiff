@@ -1,0 +1,30 @@
+{
+  "name": "mkdiff",
+  "version": "1.0.0",
+  "author": "mikkame",
+  "license": "MIT",
+  "scripts": {
+    "check": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/chunk": "^0.0.0",
+    "@types/cli-progress": "^3.9.1",
+    "@types/url-parse": "^1.4.3",
+    "axios": "^0.21.1",
+    "chunk": "^0.0.3",
+    "cli-progress": "^3.9.0",
+    "img-diff-js": "^0.5.2",
+    "puppeteer": "^9.1.1",
+    "ts-node": "^9.1.1",
+    "url-parse": "^1.5.1",
+    "xlsx": "^0.16.9"
+  }
+}
